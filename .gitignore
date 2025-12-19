@@ -5,6 +5,9 @@ node_modules
 dist
 *.tsbuildinfo
 
+# Drizzle migrations
+drizzle
+
 # Test coverage
 coverage
 
@@ -12,6 +15,7 @@ coverage
 .env
 .env.local
 .env.*.local
+docker-compose.override.yml
 
 # IDE
 .vscode

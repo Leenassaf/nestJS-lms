@@ -1,6 +1,4 @@
-import type { UserConfig } from '@commitlint/types';
-
-const config: UserConfig = {
+export default {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'type-enum': [
@@ -28,5 +26,3 @@ const config: UserConfig = {
     'header-max-length': [2, 'always', 100],
   },
 };
-
-export default config;

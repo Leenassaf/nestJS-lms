@@ -13,6 +13,7 @@ export default defineConfig({
     user: process.env.POSTGRES_USER || 'postgres',
     password: process.env.POSTGRES_PASSWORD || 'postgres',
     database: process.env.POSTGRES_DB || 'nestjs_lms',
+    ssl: false, // Disable SSL for local development
   },
   verbose: true,
   strict: true,
